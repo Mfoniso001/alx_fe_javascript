@@ -152,7 +152,7 @@ let quotes = JSON.parse(localStorage.getItem('quotes')) || [
     if (updated) {
       saveQuotes();
       populateCategories();
-      notifyUser("Quotes synced from server!");
+      notifyUser["Quotes synced with server!"];
     }
   }
   
